@@ -1,7 +1,7 @@
 {
   "name": "my-pass",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "./main.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -28,6 +28,8 @@
     "@typescript-eslint/parser": "^5.27.0",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "prettier": "^2.6.2",
